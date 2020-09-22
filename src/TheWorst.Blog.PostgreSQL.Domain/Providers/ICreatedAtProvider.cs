@@ -1,4 +1,9 @@
-$HEADER$namespace $NAMESPACE$
+using System;
+
+namespace TheWorst.Blog.PostgreSQL.Domain.Providers
 {
-  public class $CLASS$ {$END$}
+    public interface ICreatedAtProvider
+    {
+        DateTime CreateAt { get; set; }
+    }
 }

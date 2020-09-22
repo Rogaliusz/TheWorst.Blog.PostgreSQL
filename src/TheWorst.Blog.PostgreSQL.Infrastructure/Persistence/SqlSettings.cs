@@ -1,4 +1,4 @@
-namespace TheWorst.Blog.PostgreSQL.Infrastructure.Persistance
+namespace TheWorst.Blog.PostgreSQL.Infrastructure.Persistence
 {
     public class SqlSettings
     {

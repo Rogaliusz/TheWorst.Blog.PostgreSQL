@@ -3,7 +3,7 @@ using TheWorst.Blog.PostgreSQL.Domain.Providers;
 
 namespace TheWorst.Blog.PostgreSQL.Domain.Models
 {
-    public class Article : IIdProvider,
+    public class Post : IIdProvider,
         ICreatedAtProvider
     {
         public int Id { get; set; }

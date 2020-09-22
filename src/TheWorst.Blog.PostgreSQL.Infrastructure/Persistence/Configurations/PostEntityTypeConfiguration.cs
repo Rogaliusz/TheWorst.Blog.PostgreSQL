@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using TheWorst.Blog.PostgreSQL.Domain.Models;
 
-namespace TheWorst.Blog.PostgreSQL.Infrastructure.Persistance.Configurations
+namespace TheWorst.Blog.PostgreSQL.Infrastructure.Persistence.Configurations
 {
     public class PostEntityTypeConfiguration : IEntityTypeConfiguration<Post>
     {

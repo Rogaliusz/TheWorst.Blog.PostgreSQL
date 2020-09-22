@@ -1,4 +1,7 @@
-$HEADER$namespace $NAMESPACE$
+namespace TheWorst.Blog.PostgreSQL.Domain.Providers
 {
-  public interface $INTERFACE$ {$END$}
+    public interface IIdProvider
+    {
+        int Id { get; set; }
+    }
 }
